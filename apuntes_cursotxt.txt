@@ -1,0 +1,231 @@
+Introduccion a redes 
+
+
+una red de datos es un conjunto de dispositivos interconectados
+
+Componentes de la red
+
+ROLES DE HOST
+
+-ip sirve para identificar un dispositivo final 
+-ip estatica-le pertenece al dispositivo 
+-solo tenemos ip cuando estamos conectados a internet 
+-la mascara de super 
+
+CLIENTE: Tipo de host que sirve paa pediar algun tuipo de infromacion
+SERVIDOR: Computadora con software que les permite proporcionar la información
+
+Dispositovos finales: computadora,telefono, tablet,tarejeta inalámbrica
+Dispositivos intermedios: router inalambrico, router, switch, dispositivo firewall
+
+Medios de red
+
+-Hilos metalicos dentro de cables (pulsos electromagneticos)
+-Fibras de vidrios o plastico (cable de fibra optica)  (pulsos de luz)
+-Transmision inalámbrica
+
+ 
+Medios de red
+
+-Medios inalambricos
+-Medios LAN
+-Medios WAN
+
+Topología de red
+
+forma de organisacion con la cual los dispositivos o nodos se conectan al medio de comunicacion dentro de la estructura
+de red.
+
+-Fisica
+Nos permite ver fisicamente los dispositovos finales e intermedios
+
+-Logica 
+Digrama logico que te puede dar datos mas especifos de la red (ip,nombre,puertos a los que estan conectados,velocidad de
+ internet)
+
+CONCEPTO
+Duplex (ida y regreso)
+
+Tipos de red WAN y LAN
+
+LAN (local area network)
+-Area geografica pequeña
+-Administracion a cargo de una persona 
+-Ancho de banda alto velocidad a dispositivos finales o intermedios
+
+WAN Wide area network
+-Redes area amplia extendidas por zonas geográficas como paises o continentes
+-fibra optica
+-Protocolos HDLC,PPP
+-Cable serial
+
+Tipos de red
+
+-Internet (Conexion global de redes interconectadas)
+
+-Extranet ()
+Proporciona acceso a usarios que son invitados 
+
+-Intranet (Para empresas)
+Conexion privada de lan y wan que pertenece a alguna organización 
+
+VPN permite acceder a ciertas redes especificas
+
+
+Tipos de topología de red
+
+-Estrella (Red en la cual las estaciones están conectados directamente con el punto central)
+	Ventajas
+Si elemento exterior se desconecta no afecta los demas
+
+	Desventaja
+Si falla el centro todas se desconnectan
+
+-Anillo (configuracion en serie)
+	
+Ventajas
+es simple
+facilidad de fluidez de datos
+
+Desventajas
+Si un nodo falla todo queda desconectado
+
+-Bus
+Los nodos se encuentras conectados a un enlace 
+
+	Ventajas
+Simplicidadad de arquitectura
+Si un nodo falla todo se deconecta
+
+	desventaja
+Puede producirce degradacion de la señal
+Altas perdidas de la transmisión
+
+
+
+-Topología de arbol
+Conexion de forma de arbol ES UNA ESTRELLA DE ESTRELLAS
+
+	ventajas
+Conexion de mas dispositivos 
+permite prorizar o aislar comunicaiones
+
+	Desvetajas
+Es mas dificil su configuración
+Si se viene abajo el segmento principal
+
+-De malla
+
+cada nodo esta conectado con el resto de los nodos
+
+	ventajas
+mensajes a todos lados
+Si fallla un cable hay otro que se hara acargo del trafico
+
+	desventajas
+Gran cantidad de procesamiento
+Es mas caro
+
+
+-Hibrida omixta 
+ocupas una o mas combinaciones de las topologias vistas amteriormente
+
+caracteristicas de los arquitectos deben abordar
+
+Escalabilidad
+Cuando la topologia puede sorportar cambios a futuro
+Robusto
+
+SEGURIDAD
+Utilizar contraseñas, tipos de accesos, encriptadores de datos.
+
+El usuario tiene permitido hacer permisos
+Que la red siempre esté accesible en cualquier momento
+
+ Autenticaion 
+
+Demostrar quien se dice ser.
+por lo que sabe
+por lo que tiene
+
+INTEGRIDAD
+ 
+ Integridad
+
+capacidad de aceptar o rechazar un mensaje aún si este ha sido modificado
+
+ confidencialidad
+un mensaje puede ser entendido por el destinatario, aplicando un cifrado 
+	asimétrico
+	simétrico
+
+
+TOLERACIA A FALLOS
+
+Llimita el impacto de un error de software 
+
+QUALITY OF SERVICE
+
+servicio bueno teniendo ciertas prioridades
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
