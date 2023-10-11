@@ -72,6 +72,7 @@ Conexion privada de lan y wan que pertenece a alguna organización
 VPN permite acceder a ciertas redes especificas
 
 
+
 Tipos de topología de red
 
 -Estrella (Red en la cual las estaciones están conectados directamente con el punto central)
@@ -170,10 +171,40 @@ servicio bueno teniendo ciertas prioridades
 
 
 
+Kernel 
+nucleo el cual se encuentra cercano al usuario
+
+CLI (trajo con comandos 'terminal')
+GUI (trabjo con apoyo grafico 'app') 
 
 
 
+IPV4
 
+Es las mas utlizada
+Compuestas por 32 bits separada por 4 octetos
+cada uno vale 8 bits
+
+192.168.1.5
+
+
+clasificacion clase
+
+clase A   0.0.0.0/8 a 127.0.0.0/8  (uso academico pruebas)
+Clase B   128.0.0.0/16 191.255.0.0/16 (Uso domestico)
+Clase C   192.3.3.3/34  223.255.255.0/24 (uso privado)
+
+clasificacion privada
+
+Clase A   10.0.0.0/8 a 10.255.255.255/8
+Clase B   172.16.0.0/12 a 192.31.255.255/12o 16
+clase C   192.168.1.1/16 a 192.168.255.255/16 o 24
+
+mask (son por default)
+
+Clase A 255.0.0.0
+Clase B 255.255.0.0
+Clase C 255.255.255.0
 
 
 
