@@ -192,7 +192,7 @@ clasificacion clase
 
 clase A   0.0.0.0/8 a 127.0.0.0/8  (uso academico pruebas)
 Clase B   128.0.0.0/16 191.255.0.0/16 (Uso domestico)
-Clase C   192.3.3.3/34  223.255.255.0/24 (uso privado)
+Clase C   192.0.0.0/34  223.255.255.0/24 (uso privado)
 
 clasificacion privada
 
@@ -206,7 +206,19 @@ Clase A 255.0.0.0
 Clase B 255.255.0.0
 Clase C 255.255.255.0
 
+subneting 
+creacion de sunredes 
 
+boadcast 
+dispositivo que envía mensaje a todos los dispositivos
+
+numbre of subnets = 2^s
+second subnet formula number of sbnets = 2^s-2
+
+number of host per subnet = 2^h - 2
+h= número de host
+
++
 
 
 
