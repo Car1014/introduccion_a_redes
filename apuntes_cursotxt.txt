@@ -207,8 +207,8 @@ Clase B 255.255.0.0
 Clase C 255.255.255.0
 
 subneting 
-creacion de sunredes 
-
+creacion de subredes 
+ 
 boadcast 
 dispositivo que envía mensaje a todos los dispositivos
 
@@ -218,7 +218,45 @@ second subnet formula number of sbnets = 2^s-2
 number of host per subnet = 2^h - 2
 h= número de host
 
-+
+8.8.8.8 (dominio de google)
+
+
+Modelo TCP/IP
+comunicación confible
+no es igual que ip
+
+check 
+Reintenta
+Lente
+
+UDP (Le interersa que llegue el mensaje sin importar el estado)
+Rapido
+
+
+
+prefijos
+
+p = protocolo
+c = confiable
+D = deconfiable
+
+
+
+Capas
+
+Aplicación    SSH  FTP  SMTP DHCP DNS RIP SNMP HTTP
+
+	Es lo que el usuario final ve
+
+Transporte    TCP  DCCP  UTP UDP  CIMP FCP
+
+	¿Com+o llego? ¿Qué se envio? ¿Cuando se envio?
+
+Internet      IP  IPSEG ICMP  IPSEC
+
+Acceso a red  NDP  ARP  L2TP  ETHERNET
+
+	Medio fisico 
 
 
 
@@ -227,8 +265,7 @@ h= número de host
 
 
 
-
-
+ 
 
 
 
